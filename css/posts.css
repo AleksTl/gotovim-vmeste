@@ -1,0 +1,118 @@
+@font-face {
+	font-family: Sail;
+	src: url(../fonts/Sail.ttf);
+}
+@font-face {
+	font-family: NotoSans;
+	src: url(../fonts/NotoSansBold/NotoSansBold.ttf);
+}
+@font-face {
+	font-family: NotoSans;
+	src: url(../fonts/NotoSansBoldItalic/NotoSansBoldItalic.ttf);
+}
+@font-face {
+	font-family: NotoSans;
+	src: url(../fonts/NotoSansItalic/NotoSansItalic.ttf);
+}
+@font-face {
+	font-family: NotoSans;
+	src: url(../fonts/NotoSansRegular/NotoSansRegular.ttf);
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+.nav-iner {
+	margin-top: 40px;
+}
+.nav-iner ul {
+	float: left;
+	margin-bottom: 35px;
+}
+.nav-iner li {
+	float: left;
+	text-align: center;
+	
+}
+.nav-iner li a {
+	font-size: 16px;
+	color: #500a00;
+	border-right: 1px solid #500a00;
+	padding-right: 10px;
+	padding-left: 10px;
+	line-height: 25px;
+}
+.nav-iner li a:hover {
+	text-decoration: underline;
+}
+.nav-iner li:last-child a {
+	border: none;
+}
+.nav-iner h3 {
+	font-size: 25px;
+	text-align: center;
+	font-family: NotoSans;
+	color: #500a00;
+	margin-bottom: 20px;
+	text-shadow: 1px 1px 3px #777;
+	font-style: italic;
+
+}
+.nav-iner .post {
+	height: 250px;
+	background: #e1ead2;
+	border: 1px dashed #b2c297;
+}
+.nav-iner .post img {
+	width: 180px;
+	height: 180px;
+	margin: 20px 20px 0 10px;
+	float: left;
+}
+.nav-iner .post>a {
+	display: block;
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 18px;
+	font-family: NotoSans;
+	color: #500a00;
+}
+.nav-iner .post>a:hover {
+	text-decoration: underline;
+}
+.post {
+	margin-bottom: 30px;
+	box-shadow: 0px 0px 15px #999;
+	position: relative;
+	
+	
+}
+.post p {
+	padding: 20px 10px 0 0;
+	font-family: Arial;
+	font-size: 14px;
+	color: #000;
+}
+.post a:first-child {
+	font-style: italic;
+	text-shadow: 1px 1px 2px #999;
+}
+.post .source {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	font-size: 12px;
+}
+/*Clear-Fix*/
+.nav-iner:after {
+	content: " ";
+	display: table;
+	clear: both;
+}

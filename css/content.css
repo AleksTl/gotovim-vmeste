@@ -1,0 +1,108 @@
+@font-face {
+	font-family: Sail;
+	src: url(../fonts/Sail.ttf);
+}
+@font-face {
+	font-family: NotoSans;
+	src: url(../fonts/NotoSansBold/NotoSansBold.ttf);
+}
+@font-face {
+	font-family: NotoSans;
+	src: url(../fonts/NotoSansBoldItalic/NotoSansBoldItalic.ttf);
+}
+@font-face {
+	font-family: NotoSans;
+	src: url(../fonts/NotoSansItalic/NotoSansItalic.ttf);
+}
+@font-face {
+	font-family: NotoSans;
+	src: url(../fonts/NotoSansRegular/NotoSansRegular.ttf);
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+.content h3 {
+	margin-top: 40px;
+	margin-bottom: 20px;
+	font-family: NotoSans;
+	color: #500a00;
+	text-shadow: 1px 1px 1px #999;
+	font-style: italic ;
+}
+.content h3 + img {
+	margin-bottom: 20px;
+}
+
+.content {
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 160%;
+}
+.content span {
+	font-weight: bold;
+}
+.content p:nth-of-type(1) {
+	margin-bottom: 15px;
+}
+.content h4 {
+	font-size: 12px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+.content p:nth-of-type(3) {
+	background: #e1ead2;
+	margin-bottom: 15px;
+	padding-left: 8px;
+}
+.content ul {
+	margin-left: 35px;
+	list-style: circle;
+	margin-bottom: 15px;
+}
+.content p:nth-of-type(4) {
+	background: #e1ead2;
+	margin-bottom: 15px;
+	padding-left: 8px;
+}
+.content ul li span {
+	color: #500a00;
+}
+.content .foto-reciept {
+	float: left;
+	margin-right: 15px;
+}
+.reciept {
+	margin-bottom: 15px;
+}
+.reciept a {
+	outline: none;
+}
+.content .fin {
+	color: #500a00;
+	font-size: 18px;
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.istochnik {
+	font-size: 16px;
+}
+.istochnik a {
+	text-decoration: underline;
+}
+
+/*ClearFix*/
+
+.reciept:after {
+	content: " ";
+	display: table;
+	clear: both;
+}
